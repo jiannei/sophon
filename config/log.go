@@ -3,7 +3,7 @@ package config
 type Log struct {
 	Switch     string `default:"off"`
 	Path       string `default:"./storage/logs/"`
-	FileName   string `default:"L.log"`
+	FileName   string `default:"Sophon.log"`
 	Level      string `default:"info"`
 	MaxSize    int    `default:"64"`
 	MaxAge     int    `default:"7"`

@@ -1,7 +1,7 @@
 package providers
 
 import (
-	"L/config"
+	"Sophon/config"
 	"github.com/jinzhu/configor"
 )
 

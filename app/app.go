@@ -1,9 +1,9 @@
 package app
 
 import (
-	"L/app/http/middlewares"
-	"L/app/providers"
-	"L/routes"
+	"Sophon/app/http/middlewares"
+	"Sophon/app/providers"
+	"Sophon/routes"
 	"context"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
@@ -65,7 +65,7 @@ func (app *Application) Run() {
 	}()
 
 	// 记录日志
-	app.Logger.Info("L is running here")
+	app.Logger.Info("Sohpon is running here")
 
 	// 欢迎信息
 	app.welcome()
@@ -77,7 +77,7 @@ func (app *Application) Run() {
 func (app *Application) welcome() {
 	// 控制台输出信息
 	log.Println("|-----------------------------------|")
-	log.Println("|            Welcome to L!          |")
+	log.Println("|         Welcome to Sophon!        |")
 	log.Println("|-----------------------------------|")
 }
 

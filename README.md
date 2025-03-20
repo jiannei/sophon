@@ -1,4 +1,4 @@
-# L
+# Sophon
 
 语义化设计的 golang API 框架，包含了常用的工具来辅助快速地业务开发。
 
@@ -7,7 +7,7 @@
 * 初始化项目
 
 ```
-mkdir L && cd L && go mod init L
+mkdir Sophon && cd Sophon && go mod init Sophon
 ```
 
 * gin 安装

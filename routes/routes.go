@@ -7,7 +7,7 @@ import (
 func Setup(router *gin.Engine) {
 	router.GET("/", func(ctx *gin.Context) {
 		ctx.JSON(200, gin.H{
-			"message": "Welcome to L!",
+			"message": "Welcome to Sophon!",
 		})
 	})
 

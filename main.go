@@ -1,8 +1,8 @@
 package main
 
-import "L/app"
+import "Sophon/app"
 
 func main() {
-	L := app.New()
-	L.Run()
+	launch := app.New()
+	launch.Run()
 }
